@@ -20,6 +20,12 @@ article {
   padding: 10px;
   border: 1px solid #ccc;
 }
+.logo {
+  width: 50px;       /* Adjust size as needed */
+  height: auto;
+  margin-right: 15px;
+  vertical-align: middle;
+}
 
 /* Aside takes 1/3 of the space */
 aside {
