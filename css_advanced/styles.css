@@ -179,3 +179,53 @@ blockquote footer {
   font-size: 1rem;
   opacity: 0.9;
 }
+.membership-section {
+  background-color: #071629;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.membership-section h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #C271FF;
+}
+
+.membership-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.membership-card {
+  width: 220px;
+  text-align: center;
+}
+
+.membership-card img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+.membership-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.membership-card p {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.membership-button {
+  background-color: #C271FF;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+}
