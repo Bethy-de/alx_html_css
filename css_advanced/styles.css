@@ -229,3 +229,41 @@ blockquote footer {
   border-radius: 25px;
   cursor: pointer;
 }
+.faq-section {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.faq-section h2 {
+  font-size: 2rem;
+  color: #C271FF;
+  margin-bottom: 40px;
+}
+
+.faq-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.faq-item {
+  width: 220px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  text-align: left;
+}
+
+.faq-item h3 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.faq-item p {
+  font-size: 0.9rem;
+  color: #666;
+}
