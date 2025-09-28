@@ -72,3 +72,34 @@ header {
   background-color: #C271FF;
   color: white;
 }
+.quote-section {
+  background-color: #C271FF; /* Purple background */
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.quote-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.quote-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+blockquote {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+blockquote footer {
+  margin-top: 20px;
+  font-size: 1rem;
+  opacity: 0.9;
+}
